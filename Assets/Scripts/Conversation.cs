@@ -13,11 +13,17 @@ public class Conversation : ScriptableObject
         public Sprite Image;
         public Sprite BackBround;
         public string Question;
-        public Data.Type PositiveConsequenceType;
-        public int PositiveConsequenceReward;
-        public Conversation PositiveConsequenceDialogs;
-        public Data.Type NegaiveConsequenceType;
-        public int NegaiveConsequenceReward;
-        public Conversation NegativeConsequenceDialogs;
+        public List<Consiquence> PositiveConsiquence;
+        public List<Consiquence> NegativeConsiquence;
+    }
+
+    [System.Serializable]
+    public class Consiquence
+    {
+        public Data.Type Type;
+        public int Reward;
+        public Conversation Dialogs;
+        public int RevardDelay;
+        public int Cost;
     }
 }
