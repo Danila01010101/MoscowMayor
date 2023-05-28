@@ -21,9 +21,8 @@ public class Conversation : ScriptableObject
     public class Consiquence
     {
         public Data.Type Type;
-        public int Reward;
+        public int Amount;
         public Conversation Dialogs;
         public int RevardDelay;
-        public int Cost;
     }
 }
