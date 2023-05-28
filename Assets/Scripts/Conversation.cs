@@ -10,8 +10,6 @@ public class Conversation : ScriptableObject
     public class Dialog
     {
         public bool IsUnique = false;
-        public Sprite Image;
-        public Sprite BackBround;
         public string Question;
         public List<Consiquence> PositiveConsiquence;
         public Conversation PositiveDialogs;

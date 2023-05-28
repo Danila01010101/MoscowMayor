@@ -14,12 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs:
   - IsUnique: 0
-    Image: {fileID: 0}
-    BackBround: {fileID: 0}
-    Question: 
-    PositiveConsequenceType: 0
-    PositiveConsequenceReward: 0
-    PositiveConsequenceDialogs: {fileID: 0}
-    NegaiveConsequenceType: 0
-    NegaiveConsequenceReward: 0
-    NegativeConsequenceDialogs: {fileID: 0}
+    Question: "\u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0441\u043E\u0448\u043B
+      \u043A\u0440\u0435\u0442\u0441"
+    PositiveConsiquence:
+    - Type: 1
+      Amount: 1000
+      RevardDelay: 0
+    PositiveDialogs: {fileID: 0}
+    NegativeConsiquence:
+    - Type: 1
+      Amount: -1000
+      RevardDelay: 0
+    NegativeDialogs: {fileID: 0}
+  - IsUnique: 0
+    Question: "\u043A\u0443\u043F\u0438\u0442\u0435 \u0434\u0435\u043D\u044F\u043A"
+    PositiveConsiquence:
+    - Type: 0
+      Amount: 101000
+      RevardDelay: 0
+    PositiveDialogs: {fileID: 0}
+    NegativeConsiquence:
+    - Type: 0
+      Amount: -10100
+      RevardDelay: 0
+    NegativeDialogs: {fileID: 0}
