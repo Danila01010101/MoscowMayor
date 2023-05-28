@@ -14,7 +14,9 @@ public class Conversation : ScriptableObject
         public Sprite BackBround;
         public string Question;
         public List<Consiquence> PositiveConsiquence;
+        public Conversation PositiveDialogs;
         public List<Consiquence> NegativeConsiquence;
+        public Conversation NegativeDialogs;
     }
 
     [System.Serializable]
@@ -22,7 +24,6 @@ public class Conversation : ScriptableObject
     {
         public Data.Type Type;
         public int Amount;
-        public Conversation Dialogs;
         public int RevardDelay;
     }
 }
